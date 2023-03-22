@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class Notification extends Component {
-  static propTypes = {
-    message: PropTypes.string.isRequired,
-  };
-
-  render() {
-    return <p className="feedback">{this.props.message}</p>;
-  }
+function Notification({ message }) {
+  return <p className="feedback">{message}</p>;
 }
+
+Notification.propTypes = {
+  message: PropTypes.string.isRequired,
+};
 
 export default Notification;
