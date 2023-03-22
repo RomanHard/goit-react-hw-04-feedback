@@ -1,0 +1,35 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feedbackOptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.good {
+  background-color: #4caf50;
+  height: 50px;
+  width: 15%;
+}
+
+.neutral {
+  background-color: #ffeb3b;
+  height: 50px;
+  width: 15%;
+}
+
+.bad {
+  background-color: #f44336;
+  height: 50px;
+  width: 15%;
+}
